@@ -37,10 +37,13 @@ $(function () {
             });
     });
 });
-$("#add-movie").on("click", function (event) {
-    var search= $("#movie-input").val().trim();
+$("#add-travel").on("click", function (event) {
+    var search= $("#travel-input").val().trim();
     console.log(search);
     event.preventDefault();
+    var a = $("<button>");
+    a.addClass("#travel-input");
+    $("#buttonArea").append(a);
     $("#imageArea").empty();
 
 
