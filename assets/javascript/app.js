@@ -3,6 +3,7 @@ $(function () {
 
     $("button", ).on("click", function () {
         var type = $(this).attr("travel-place");
+        $("#imageArea").empty();
 
 
 
@@ -25,11 +26,16 @@ $(function () {
                 console.log(response);
                 var results = response.data;
                 for (var i = 0; i < response.data.length; i++) {
+                    var rating = response.data[i].rating;
+                     console.log(rating);
+                     var p = $('<p>').text('Rating:' + rating);
                     var gify = $("<div>");
                     var placeImage = $("<img>");
                     placeImage.attr("src", results[i].images.fixed_height.url);
                     gify.append(placeImage);
+                    gify.append(p);
                     $("#imageArea").prepend(gify);
+                    
 
                 }
 
@@ -68,10 +74,14 @@ $("#add-travel").on("click", function (event) {
         console.log(response);
         var results = response.data;
         for (var i = 0; i < response.data.length; i++) {
+            var rating = response.data[i].rating;
+            console.log(rating);
+             var p = $('<p>').text('Rating:' + rating);
             var gify = $("<div>");
             var placeImage = $("<img>");
             placeImage.attr("src", results[i].images.fixed_height.url);
             gify.append(placeImage);
+            gify.append(p);
             $("#imageArea").prepend(gify);
 
         }
