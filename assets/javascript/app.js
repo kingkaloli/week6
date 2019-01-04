@@ -41,8 +41,10 @@ $("#add-travel").on("click", function (event) {
     var search= $("#travel-input").val().trim();
     console.log(search);
     event.preventDefault();
-    var a = $("<button>");
+    var a = $("<button>").html(search);
+    a.addClass("btn btn-secondary");
     a.val(search);
+    
     $("#buttonArea").append(a);
     console.log(a);
     $(a).on("click", function (queryURL) {
