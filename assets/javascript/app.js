@@ -42,9 +42,13 @@ $("#add-travel").on("click", function (event) {
     console.log(search);
     event.preventDefault();
     var a = $("<button>");
-    a.addClass("#travel-input");
+    a.val(search);
     $("#buttonArea").append(a);
+    console.log(a);
+    $(a).on("click", function (queryURL) {
     $("#imageArea").empty();
+
+    
 
 
 
@@ -74,4 +78,5 @@ $("#add-travel").on("click", function (event) {
 
     });
 
+});
 });
