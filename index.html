@@ -10,60 +10,80 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
- 
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <div class="jumbotron">
-    <h1 class="text-center">Oh, The Places You'll Go!</h1>
-  </div>
+  <h1 class="text-center">Oh, The Places You'll Go!</h1>
+  <br>
   <div class="container">
-      <div class="row">
-          <div class="col-md-4">
-            </div>
-            <div class="col-md-4">
-  <div class = placesIlove>
-     <h2> So get on your way: </h2>
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+        <form id="travel-form">
+          <div id="todaySearch">
+            <label for="travel-input">
+              <p>Where would you like to go?</p>
+              <br>
+            </label>
+          </div>
+          <input type="text" id="travel-input">
+          <br>
+          <br>
+          <input id="add-travel" class="btn btn-secondary " type="submit" value="You're off and away!">
+        </form>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
   </div>
-  <div class="buttonLove">
-    <br>
-  <button travel-place="Uganda" class="btn btn-secondary" id="mexico">Uganda</button>
-  <button travel-place="colorado" class="btn btn-secondary" id="mexico">Colorado</button>
-  <button travel-place="georgia" class="btn btn-secondary" id="mexico">Georgia</button>
 </div>
-</div>
-<div class="col-md-4">
+<div id=wrapper>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+      <div class=placesIlove>
+        <h2> click to visit your destination:</h2>
+      </div>
+      <div class="buttonLove">
+        <br>
+        <button travel-place="Uganda" class="btn btn-secondary" id="mexico">Uganda</button>
+        <button travel-place="colorado" class="btn btn-secondary" id="mexico">Colorado</button>
+        <button travel-place="georgia" class="btn btn-secondary" id="mexico">Georgia</button>
+      </div>
+    </div>
+    <div class="col-md-4">
+    </div>
   </div>
-</div>
 </div>
 <br>
 <div class="container">
-    <div class="row">
-        <div class="col-md-4">
-          </div>
-          <div class="col-md-4">
-              <div class = placesIlove>
-                  
-                </div>
-<div id=buttonArea></div>
-</div>
-</div>
-<div class="col-md-4">
+  <div class="row">
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+      <div class=placesIlove>
+
+      </div>
+      <div id=buttonArea></div>
+    </div>
+  </div>
+  <div class="col-md-4">
   </div>
 </div>
 </div>
-
-<form id="travel-form">
-  <div id="todaySearch">
-  <label for="travel-input"><p>Where would you like to go?</p></label>
-</div>
-  <input type="text" id="travel-input">
-  <br>
-
-  <!-- Button triggers new movie to be added -->
-  <input id="add-travel" class="btn btn-secondary" type="submit" value="You're off and away!">
-</form>
+<div class="container">
+ <div class="row">
+    <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
 <br>
 <div id=imageArea>
+  </div>
+  <div class="col-md-4">
+    </div>
 
 </div>
 

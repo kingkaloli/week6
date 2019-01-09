@@ -1,18 +1,19 @@
 body {
-background-color: #ffefb8;
- 
+
+    background-color: #fef9f2;
 }
+
 
 .jumbotron  {
 
- background-color: white;
+ background-color: #a0cdb1;
 }
 
 h1  {
 
     font-family: 'Bungee Shade', cursive;
     font-size: 50px;
-    color: black;
+    color: #007d91;
 
 }
 
@@ -20,24 +21,34 @@ h2  {
 
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 25px;
-    color: black;
+    color: #ea9047;
     text-align: center;
 
 }
 
 p {
     font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 25px;
+    color: #ea9047;
 
 }
 
-#todaySearch {
-    font-family: 
-
-}
 .placesIlove{
 
     padding: 5px;
+    text-align: center;
 
+}
+
+#travel-form  {
+
+    text-align: center;
+}
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    background-color: #8b494f !important;
+    font-family: 'PT Sans Narrow', sans-serif !important;
+    
+    
 }
 
 button {
