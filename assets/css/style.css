@@ -1,8 +1,44 @@
 body {
-background-color: aqua;
+background-color: #ffefb8;
  
 }
 
+.jumbotron  {
+
+ background-color: white;
+}
+
+h1  {
+
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+    color: black;
+
+}
+
+h2  {
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+#todaySearch {
+    font-family: 
+
+}
+.placesIlove{
+
+    padding: 5px;
+
+}
 
 button {
 margin-left: 5px;
@@ -17,3 +53,4 @@ padding: 5px;
 
     align-content: center;
 }
+

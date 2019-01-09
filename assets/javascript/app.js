@@ -38,7 +38,6 @@ $("#add-travel").on("click", function (event) {
     var a = $("<button>").html(search);
     a.addClass("btn btn-secondary");
     a.val(search);
-
     $("#buttonArea").append(a);
     console.log(a);
     $(a).on("click", function (queryURL) {
